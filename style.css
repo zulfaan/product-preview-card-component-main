@@ -1,0 +1,114 @@
+body{
+    background-color: #FBCC9D;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+}
+.container{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 45%;
+    height: auto;
+    -webkit-border-radius: 0.4375;
+    -moz-border-radius: 0.4375;
+    border-radius: 0.4375rem;
+    margin: 0 auto;
+}
+img{
+    width: 50%;
+    border-top-left-radius: 0.4375rem;
+    border-bottom-left-radius: 0.4375rem;
+}
+#card-sheet{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+h1{
+    width: 70%;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+h3{
+    font-size: smaller;
+    letter-spacing: 0.2rem;
+}
+.p-text{
+    width: 75%;
+    line-height: 1.4;
+}
+.price{
+    display: inline-block;
+    align-items: baseline;
+    width: 40%;
+}
+.real{
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    padding-right: 5%;
+    color: #3C8067;
+}
+.discount{
+    text-decoration: line-through;
+    font-size: smaller;
+}
+.btn{
+    display: block;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    background-color: #3C8067;
+    width: 85%;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    color: #FFFFFF;
+    -webkit-border-radius: 0.4375;
+    -moz-border-radius: 0.4375;
+    border-radius: 0.4375rem;
+}
+.btn:hover{
+    background: #1C232B;
+    text-decoration: none;
+}
+#icon{
+    width: 0.7rem;
+    padding-right: 0.2rem;
+}
+.attribution{
+    text-align: center;
+}
+.copyright{
+    color: hsl(212, 21%, 14%);
+    text-decoration: none;
+    text-align: center;
+}
+@media(max-width: 450px){
+    body{
+        padding: 5%;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5%;
+    }
+    img{
+        width: 100%;
+        border-top-right-radius: 0.4375rem;
+        border-top-left-radius: 0.4375rem;
+        border-bottom-left-radius: 0;
+    }
+    .p-text{
+        width: 87%;
+    }
+    .real{
+        padding-right: 0;
+    }
+    #icon{
+        width: 5%;
+    }
+}
